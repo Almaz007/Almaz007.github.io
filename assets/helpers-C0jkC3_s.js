@@ -1,0 +1,1 @@
+const l=t=>Object.keys(t),a=(t,n,r)=>{const s=new Blob([t],{type:r}),o=document.createElement("a");o.download=n;const e=new FileReader;e.readAsDataURL(s),e.onload=function(){typeof e.result=="string"?(o.href=e.result,o.click()):console.error("Unexpected reader.result type:",typeof e.result)}};export{a as d,l as g};

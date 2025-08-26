@@ -1,0 +1,1 @@
+import{c as t}from"./traditional-qqL8sDk3.js";const m=t(s=>({indications:{},setIndications(e){s({indications:{...e}})},smsText:"",phoneNumber:"",setPhoneNumber(e){s({phoneNumber:e})},smsWebText:"",setSms(e){s({smsText:e})},setSmsWeb(e){s({smsWebText:e})}}));export{m as u};
