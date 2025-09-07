@@ -1,0 +1,17 @@
+.btn {
+    padding: 10px 16px;
+    border-radius: 4px;
+    background-color: var(--primary-clr);
+    transition: var(--tran-03);
+    color: var(--text2-clr);
+    font-size: 16px;
+}
+
+.btn:hover {
+    background-color: var(--primary-hover-clr);
+}
+
+.btn.disabled {
+    pointer-events: none;
+    opacity: 0.4;
+}

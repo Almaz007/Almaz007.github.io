@@ -1,0 +1,8 @@
+.menu__links.visible {
+    flex-grow: 1;
+    overflow: auto;
+}
+::-webkit-scrollbar {
+    width: 0; /* Для вертикальной прокрутки */
+    background: transparent; /* Фон полосы прокрутки */
+}

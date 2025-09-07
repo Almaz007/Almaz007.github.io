@@ -1,0 +1,71 @@
+export const DiscreteInputIcon = () => {
+    return (
+        <svg
+            width="38"
+            height="24"
+            viewBox="0 0 44 26"
+            fill="none"
+            xmlns="http://www.w3.org/2000/svg"
+        >
+            <rect
+                x="0.25"
+                y="15.25"
+                width="14.5"
+                height="6.5"
+                fill="white"
+                stroke="black"
+                strokeWidth="0.5"
+            />
+            <line
+                x1="15"
+                y1="18.75"
+                x2="26"
+                y2="18.75"
+                stroke="black"
+                strokeWidth="0.5"
+            />
+            <path
+                d="M25.75 12.552L32.6181 18.5L25.75 24.448V12.552Z"
+                fill="white"
+                stroke="black"
+                strokeWidth="0.5"
+            />
+            <line
+                x1="33.2"
+                y1="11"
+                x2="33.2"
+                y2="26"
+                stroke="black"
+                strokeWidth="0.4"
+            />
+            <path
+                d="M29.8845 3.90568L34.6284 2.91502L34.3726 7.75447L29.8845 3.90568Z"
+                fill="black"
+                stroke="black"
+                strokeWidth="0.5"
+            />
+            <line
+                x1="32.3292"
+                y1="5.67282"
+                x2="29.0743"
+                y2="9.4683"
+                stroke="black"
+                strokeWidth="0.5"
+            />
+            <path
+                d="M35.8845 8.90568L40.6284 7.91502L40.3726 12.7545L35.8845 8.90568Z"
+                fill="black"
+                stroke="black"
+                strokeWidth="0.5"
+            />
+            <line
+                x1="38.3292"
+                y1="10.6728"
+                x2="35.0743"
+                y2="14.4683"
+                stroke="black"
+                strokeWidth="0.5"
+            />
+        </svg>
+    );
+};

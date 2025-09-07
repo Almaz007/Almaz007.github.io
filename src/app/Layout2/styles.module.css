@@ -1,0 +1,27 @@
+.layout {
+    height: 100svh;
+    display: flex;
+    flex-direction: column;
+    gap: 30px;
+}
+.row {
+    display: flex;
+    gap: 30px;
+    flex-grow: 1;
+    padding: 0px 25px 25px;
+}
+.project-architecture {
+    width: 200px;
+    height: 100%;
+    background-color: red;
+}
+.content {
+    overflow-x: auto;
+    display: flex;
+    flex-grow: 1;
+    gap: 20px;
+    flex-direction: column;
+}
+.pages {
+    flex-grow: 1;
+}

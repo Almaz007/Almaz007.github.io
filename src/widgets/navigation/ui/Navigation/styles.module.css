@@ -1,0 +1,34 @@
+.link-row {
+    display: flex;
+    gap: 20px;
+}
+.link {
+    color: var(--text1-clr);
+    position: relative;
+    font-size: 20px;
+    transition: var(--tran-03);
+}
+.link::after {
+    content: ""; /* Обязательно для псевдоэлемента */
+    position: absolute;
+    left: 0;
+    bottom: -4px;
+    width: 100%; /* Линия изначально на всю ширину */
+    height: 2px;
+    background-color: blue;
+    transform: scaleX(0); /* Сжимаем линию в ноль */
+    transform-origin: left; /* Точка трансформации — слева (можно right/center) */
+    transition: transform 0.3s ease; /* Анимируем scaleX */
+}
+.link:hover {
+    color: var(--primary-clr);
+}
+.link.active::after {
+    transform: scaleX(1);
+}
+.link.active {
+    color: var(--primary-clr);
+}
+.link:hover::after {
+    transform: scaleX(1); /* Растягиваем линию обратно */
+}

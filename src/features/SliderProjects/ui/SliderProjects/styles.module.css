@@ -1,0 +1,6 @@
+.control {
+  display: flex;
+  gap: 40px;
+  justify-content: end;
+  margin-bottom: 20px;
+}

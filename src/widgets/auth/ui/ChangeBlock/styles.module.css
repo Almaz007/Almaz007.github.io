@@ -1,0 +1,39 @@
+.change-btns {
+  display: flex;
+  gap: 10px;
+  justify-content: center;
+  margin-bottom: 20px;
+}
+.change-btn {
+  position: relative;
+  font-size: 18px;
+  transition: var(--tran-03);
+  padding: 8px;
+}
+.change-btn::before {
+  content: "";
+  position: absolute;
+  display: block;
+  left: 0;
+  bottom: 0;
+  transition: var(--tran-03);
+  width: 0%;
+  height: 1px;
+  background-color: var(--primary-clr);
+}
+.change-btn:hover {
+  color: var(--primary-clr);
+}
+.change-btn.active {
+  color: var(--primary-clr);
+}
+.change-btn.active::before {
+  width: 100%;
+  height: 1px;
+  background-color: var(--primary-clr);
+}
+.change-btn:hover::before {
+  width: 100%;
+  height: 1px;
+  background-color: var(--primary-clr);
+}

@@ -1,0 +1,19 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+.form-footer {
+  width: 300px;
+  display: flex;
+  gap: 20px;
+  align-items: center;
+  justify-content: space-between;
+}
+.text {
+  transition: var(--tran-03);
+}
+.text:hover {
+  color: var(--primary-clr);
+}

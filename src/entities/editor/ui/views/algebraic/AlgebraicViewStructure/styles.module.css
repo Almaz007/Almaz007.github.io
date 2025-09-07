@@ -1,0 +1,13 @@
+.algebraic {
+    position: relative;
+
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.text {
+    text-align: right;
+    padding: 7px;
+    font-size: 28px;
+    font-weight: 700;
+}

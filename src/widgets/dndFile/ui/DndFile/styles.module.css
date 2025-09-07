@@ -1,0 +1,66 @@
+.wrapper {
+    max-width: 500px;
+    width: 100%;
+    padding: 30px;
+    border: 1px solid var(--primary-clr);
+    border-radius: 10px;
+    transition: var(--tran-03);
+}
+.form {
+    display: flex;
+    flex-direction: column;
+    gap: 40px;
+    align-items: center;
+}
+.wrapper.drag {
+    background-color: #e9f4fe;
+}
+.action-title {
+    font-size: 20px;
+    font-weight: 700;
+}
+.label {
+    font-size: 16px;
+}
+.input {
+    margin: 0;
+    padding: 0;
+    width: 0;
+    height: 0;
+    visibility: hidden;
+}
+.file-list {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.download-label {
+    padding: 5px 10px;
+    border-radius: 5px;
+    background-color: var(--primary-clr);
+    color: #fff;
+    transition: var(--tran-03);
+}
+.download-label:hover {
+    background-color: var(--primary-hover-clr);
+}
+.info {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.btns {
+    display: flex;
+    gap: 10px;
+}
+.button-reset,
+.button-submit {
+    font-size: 18px;
+    font-weight: 600;
+    transition: var(--tran-03);
+}
+
+.button-reset:hover,
+.button-submit:hover {
+    color: var(--primary-clr);
+}

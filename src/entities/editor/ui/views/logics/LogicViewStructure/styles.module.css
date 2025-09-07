@@ -1,0 +1,26 @@
+.logic {
+    position: relative;
+    border: 1px solid black;
+    background-color: #fff;
+    border-radius: 10px;
+}
+.logic.inverse::after {
+    content: "";
+    position: absolute;
+    right: 0;
+    top: 50%;
+    transform: translate(50%, -50%);
+
+    width: 14px;
+    height: 14px;
+    border-radius: 50%;
+
+    border: 1px solid black;
+    background-color: #fff;
+    z-index: 2;
+}
+.text {
+    padding: 7px;
+    text-align: right;
+    font-size: 18px;
+}

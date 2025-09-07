@@ -1,0 +1,27 @@
+.inc-dec {
+    position: relative;
+}
+.inc,
+.dec {
+    position: absolute;
+    z-index: 1000;
+    left: 50%;
+    transform: translate(-50%);
+    font-size: 24px;
+    color: var(--inc-dec-clr);
+    transition: var(--tran-03);
+}
+.inc {
+    top: 2px;
+}
+.dec {
+    bottom: 2px;
+}
+.inc:hover,
+.dec:hover {
+    color: var(--sidebar-text--clr);
+}
+.inc.disabled,
+.dec.disabled {
+    pointer-events: none;
+}

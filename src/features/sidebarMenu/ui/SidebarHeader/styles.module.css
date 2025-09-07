@@ -1,0 +1,61 @@
+header {
+    flex-shrink: 0;
+    position: relative;
+}
+
+.profile {
+    /* display: flex;
+	align-items: center;
+	gap: 6px; */
+}
+.image {
+    text-align: center;
+    line-height: 60px;
+    height: 60px;
+    overflow: hidden;
+}
+
+.image img {
+    /* transition: 0.1s all; */
+    display: inline-block;
+    vertical-align: middle;
+    line-height: normal;
+}
+.image .imgFull {
+    width: 90%;
+}
+.image .imgMini {
+    width: 59px;
+}
+.invisible {
+    opacity: 0;
+    visibility: hidden;
+    position: absolute;
+}
+.profile-text {
+    display: flex;
+    flex-direction: column;
+    overflow: hidden;
+    font-size: 20px;
+    font-weight: 600;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    color: var(--text-color);
+    transition: var(--tran-03);
+}
+.visible .profile-text {
+    opacity: 1;
+}
+
+.logo-text .name {
+    margin-top: 2px;
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.logo-text .profession {
+    font-size: 16px;
+    margin-top: -2px;
+    display: block;
+}
