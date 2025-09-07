@@ -1,9 +1,0 @@
-.terminal-panel {
-    display: flex;
-    gap: 20px;
-    font-size: 40px;
-    padding: 10px;
-}
-.btn {
-    cursor: pointer;
-}
