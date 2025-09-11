@@ -1,0 +1,1 @@
+import{c as i}from"./shallow-DV_ax3xe.js";const c=i((s,n)=>({config:{scripts:[],functions:[],setpoints:[],outputMatrix:[],inputMatrix:[],sms:"",smsWeb:"",phoneNumber:"",offsetsOsc:[]},setConfig(o){s(t=>({...t,config:{...t.config,...o}}))}}));export{c as u};
