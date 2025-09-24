@@ -1,0 +1,1 @@
+import{j as d,c as e}from"./index-DhmrXgrl.js";const c="_btn_jwnoy_1",r="_disabled_jwnoy_14",t={btn:c,disabled:r},l=({text:n,type:s="button",disabled:o,className:a="",...b})=>d.jsx("button",{type:s,className:e(t.btn,"nodrag",{[t.disabled]:o},a),...b,children:n});export{l as B};
