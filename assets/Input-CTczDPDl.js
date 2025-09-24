@@ -1,0 +1,1 @@
+import{j as a,c}from"./index-BCwdqR_C.js";const i="_input_1j6w9_1",p={input:i},o=({value:s,placeholder:n,onChange:u,...t})=>a.jsx("input",{...t,className:c(p.input,t.className),placeholder:n,value:s,onChange:u});export{o as I};
