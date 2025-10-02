@@ -1,0 +1,1 @@
+import{c as i}from"./shallow-96V0Rfcy.js";const c=i((s,n)=>({config:{scripts:[],functions:[],setpoints:[],outputMatrix:[],inputMatrix:[],sms:"",smsWeb:"",phoneNumber:"",offsetsOsc:[]},setConfig(o){s(t=>({...t,config:{...t.config,...o}}))}}));export{c as u};
