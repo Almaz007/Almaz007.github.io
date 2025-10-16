@@ -1,0 +1,1 @@
+import{c as i}from"./shallow-BXe0x4RE.js";const c=i((s,n)=>({config:{scripts:[],functions:[],setpoints:[],outputMatrix:[],inputMatrix:[],sms:"",smsWeb:"",phoneNumber:"",offsetsOsc:[]},setConfig(o){s(t=>({...t,config:{...t.config,...o}}))}}));export{c as u};
