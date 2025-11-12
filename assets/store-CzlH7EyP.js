@@ -1,0 +1,1 @@
+import{c as t}from"./shallow-BbWNg5yE.js";const m=t(s=>({indications:{},setIndications(e){s({indications:{...e}})},smsText:"",phoneNumber:"",setPhoneNumber(e){s({phoneNumber:e})},smsWebText:"",setSms(e){s({smsText:e})},setSmsWeb(e){s({smsWebText:e})}}));export{m as u};
