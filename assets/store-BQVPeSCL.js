@@ -1,0 +1,1 @@
+import{c as o}from"./shallow-CDFTM4LJ.js";const e=o((t,n)=>({config:{scripts_250us:[],scripts_1ms:[],functions:[],setpoints:[],outputMatrix:[],inputMatrix:[],sms:"",smsWeb:"",phoneNumber:"",offsetsOsc:[]},setConfig(i){t(s=>({...s,config:{...s.config,...i}}))}}));export{e as u};
