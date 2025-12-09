@@ -1,0 +1,1 @@
+import{j as b,d as e}from"./index-CrREYRkc.js";const r="_btn_hq698_1",c="_disabled_hq698_27",t={btn:r,disabled:c},l=({text:s,type:n="button",disabled:o,className:d="",...a})=>b.jsx("button",{type:n,className:e(t.btn,"nodrag",{[t.disabled]:o},d),...a,children:s});export{l as B};

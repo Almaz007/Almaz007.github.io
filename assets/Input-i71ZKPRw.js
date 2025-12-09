@@ -1,0 +1,1 @@
+import{j as a,d as i}from"./index-CrREYRkc.js";const p="_input_188t0_1",c={input:p},o=({value:s,placeholder:n,onChange:u,...t})=>a.jsx("input",{...t,className:i(c.input,t.className),placeholder:n,value:s,onChange:u});export{o as I};
