@@ -1,0 +1,1 @@
+import{j as b,e as d}from"./index-Cbj21JmJ.js";const r="_btn_hq698_1",c="_disabled_hq698_27",t={btn:r,disabled:c},l=({text:s,type:n="button",disabled:o,className:e="",...a})=>b.jsx("button",{type:n,className:d(t.btn,"nodrag",{[t.disabled]:o},e),...a,children:s});export{l as B};
